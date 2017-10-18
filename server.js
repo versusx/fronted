@@ -1,11 +1,9 @@
-'use strict';
+"use strict";
 
 const http = require('http');
 
-const server = http.CreateServer(function (req, res) {
+http.cggitgitreateServer(function (req, res) {
    res.end();
-});
-
-server.listen(process.env.PORT);
+}).listen(process.env.PORT);
 
 console.log("Serer started");
