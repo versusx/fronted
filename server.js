@@ -2,7 +2,7 @@
 
 const http = require('http');
 
-http.cggitgitreateServer(function (req, res) {
+http.createServer(function (req, res) {
    res.end();
 }).listen(process.env.PORT);
 
